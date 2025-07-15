@@ -65,8 +65,22 @@ document.getElementById('prev-btn').onclick = () => {
 
 function saveAnswer() {
   const sel = document.querySelector(`input[name="q${current}"]:checked`);
-  if (sel) answers[current] = sel.value;
+  if (sel) {
+    answers[current] = sel.value;
+
+    let existingInput = document.querySelector(`#quizForm input[name="q${current}"]`);
+    if (existingInput) {
+      existingInput.value = sel.value;
+    } else {
+      const input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = `q${current}`;
+      input.value = sel.value;
+      document.getElementById('quizForm').appendChild(input);
+    }
+  }
 }
+
 
 function updateProgress() {
   const percent = ((current) / filtered.length) * 100;
