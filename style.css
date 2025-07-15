@@ -1,27 +1,51 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-  background: #f8f9fa;
-}
+
+
+/* Container width and padding */
 .container {
   max-width: 700px;
+  width: 100%;
+  padding: 0 15px;
 }
-.quiz-card {
-  margin-top: 50px;
+
+/* Remove card body padding or adjust */
+.card-body {
+  padding: 0;
 }
+
+/* Title styling */
+.card-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Fade in animation for questions */
 #question-card {
   animation: fadeIn 0.5s;
 }
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Buttons with pill shape */
 .btn {
   border-radius: 30px;
 }
+
+/* Timer styling */
 #timer {
   font-weight: 700;
-  color: #d9534f;
+  color: #d9534f; /* Bootstrap danger red */
+  margin-top: 20px;
 }
-.result h1 {
-  color: #28a745;
+
+/* Progress bar styling */
+.progress-bar {
+  transition: width 0.4s ease;
+}
+
+/* Center align the timer text */
+#timer {
+  text-align: center;
 }

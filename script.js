@@ -51,7 +51,10 @@ document.getElementById('next-btn').onclick = () => {
     renderQuestion();
   } else {
     clearInterval(timerInterval);
-    document.getElementById('quizForm').submit();
+    saveAnswer();
+    setTimeout(() => {
+      document.getElementById('quizForm').submit();
+    }, 100);
   }
 };
 
@@ -69,15 +72,15 @@ function saveAnswer() {
     answers[current] = sel.value;
 
     let existingInput = document.querySelector(`#quizForm input[name="q${current}"]`);
-    if (existingInput) {
-      existingInput.value = sel.value;
-    } else {
-      const input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = `q${current}`;
-      input.value = sel.value;
-      document.getElementById('quizForm').appendChild(input);
-    }
+if (existingInput) {
+  existingInput.value = sel.value;
+} else {
+  const input = document.createElement('input');
+  input.type = 'hidden';
+  input.name = `q${current}`;
+  input.value = sel.value;
+  document.getElementById('quizForm').appendChild(input);
+}
   }
 }
 
