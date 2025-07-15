@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background: #f8f9fa;
+}
+.container {
+  max-width: 700px;
+}
+.quiz-card {
+  margin-top: 50px;
+}
+#question-card {
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.btn {
+  border-radius: 30px;
+}
+#timer {
+  font-weight: 700;
+  color: #d9534f;
+}
+.result h1 {
+  color: #28a745;
+}
