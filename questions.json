@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "options": ["&lt;link&gt;", "&lt;a&gt;", "&lt;href&gt;", "&lt;hyperlink&gt;"],
+    "answer": "&lt;a&gt;",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets", "Creative Style Syntax"],
+    "answer": "Cascading Style Sheets",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which symbol is used to denote a variable in PHP?",
+    "options": ["%", "$", "&amp;", "#"],
+    "answer": "$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you write a comment in HTML?",
+    "options": ["&lt;!-- Comment --&gt;", "// Comment", "# Comment", "/* Comment */"],
+    "answer": "&lt;!-- Comment --&gt;",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which attribute is used to add an image in HTML?",
+    "options": ["src", "href", "img", "alt"],
+    "answer": "src",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which tag defines the title of an HTML document?",
+    "options": ["&lt;title&gt;", "&lt;head&gt;", "&lt;header&gt;", "&lt;meta&gt;"],
+    "answer": "&lt;title&gt;",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property is used to change the font size?",
+    "options": ["font-weight", "font-size", "font-style", "text-size"],
+    "answer": "font-size",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you start a PHP script?",
+    "options": ["&lt;?php", "&lt;php&gt;", "&lt;script&gt;", "&lt;?"],
+    "answer": "&lt;?php",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'div' stand for in HTML?",
+    "options": ["Division", "Device", "Document", "Directive"],
+    "answer": "Division",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "options": ["&lt;p&gt;", "&lt;div&gt;", "&lt;para&gt;", "&lt;section&gt;"],
+    "answer": "&lt;p&gt;",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the CSS property 'margin' control?",
+    "options": ["The space inside an element", "The space outside an element", "The text color", "The font size"],
+    "answer": "The space outside an element",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which JavaScript method is used to select an element by its ID?",
+    "options": ["getElementByClass()", "getElementById()", "querySelectorAll()", "getElementsByTagName()"],
+    "answer": "getElementById()",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you add a JavaScript file to an HTML page?",
+    "options": ["&lt;script src=&quot;file.js&quot;&gt;&lt;/script&gt;", "&lt;js src=&quot;file.js&quot;&gt;&lt;/js&gt;", "&lt;javascript src=&quot;file.js&quot;&gt;&lt;/javascript&gt;", "&lt;script href=&quot;file.js&quot;&gt;&lt;/script&gt;"],
+    "answer": "&lt;script src=&quot;file.js&quot;&gt;&lt;/script&gt;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "options": ["font-weight", "text-style", "font-style", "font-bold"],
+    "answer": "font-weight",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which operator is used for strict equality in JavaScript?",
+    "options": ["==", "=", "===", "!="],
+    "answer": "===",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correct way to write a comment in PHP?",
+    "options": ["&lt;!-- Comment --&gt;", "// Comment", "# Comment", "Both // Comment and # Comment"],
+    "answer": "Both // Comment and # Comment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How can you declare a JavaScript variable?",
+    "options": ["var", "let", "const", "All of these"],
+    "answer": "All of these",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you start a while loop in PHP?",
+    "options": ["while(condition) {}", "loop while(condition) {}", "while: condition {}", "while = condition {}"],
+    "answer": "while(condition) {}",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a function in PHP?",
+    "options": ["function myFunction() {}", "def myFunction() {}", "fun myFunction() {}", "create myFunction() {}"],
+    "answer": "function myFunction() {}",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property controls the stacking order of elements in CSS?",
+    "options": ["order", "z-index", "stack", "layer"],
+    "answer": "z-index",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you start a PHP block in a file?",
+    "options": ["&lt;?php ... ?&gt;", "&lt;php&gt; ... &lt;/php&gt;", "&lt;? ... ?&gt;", "&lt;? ... ?&gt;"],
+    "answer": "&lt;?php ... ?&gt;",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will console.log(typeof NaN) print in JavaScript?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which PHP function is used to hash passwords securely?",
+    "options": ["md5()", "sha1()", "password_hash()", "crypt()"],
+    "answer": "password_hash()",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property changes the text color?",
+    "options": ["text-color", "color", "font-color", "font-style"],
+    "answer": "color",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does event.preventDefault() do in JavaScript?",
+    "options": ["Stops event propagation", "Prevents the default action", "Stops execution of the script", "None of the above"],
+    "answer": "Prevents the default action",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the CSS flex-grow property do?",
+    "options": ["Sets the initial size of a flex item", "Defines how much a flex item will grow relative to the rest", "Controls the wrapping of flex items", "Sets the alignment of flex items"],
+    "answer": "Defines how much a flex item will grow relative to the rest",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the output of echo 5 + \"10 Little Piggies\"; in PHP?",
+    "options": ["15", "510 Little Piggies", "Error", "5"],
+    "answer": "15",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which operator assigns a value in JavaScript?",
+    "options": ["=", "==", "===", ":="],
+    "answer": "=",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you declare a constant in PHP?",
+    "options": ["const PI = 3.14;", "define(&quot;PI&quot;, 3.14);", "Both of these", "None of these"],
+    "answer": "Both of these",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you select all elements with class 'btn' in JavaScript?",
+    "options": ["getElementsByClassName(&quot;btn&quot;)", "querySelector(&quot;.btn&quot;)", "querySelectorAll(&quot;.btn&quot;)", "Both getElementsByClassName(&quot;btn&quot;) and querySelectorAll(&quot;.btn&quot;)"],
+    "answer": "Both getElementsByClassName(&quot;btn&quot;) and querySelectorAll(&quot;.btn&quot;)",
+    "difficulty": "hard"
+  }
+]
