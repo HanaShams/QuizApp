@@ -23,7 +23,7 @@ $total = count($filtered);
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
    body {
-  background: linear-gradient(135deg, #87CEEB 50%, #ffffff 50%);
+  background: linear-gradient(135deg, #87CEEB 10%, #ffffff 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -32,13 +32,14 @@ $total = count($filtered);
 }
 
     .result-box {
-      background-color: rgba(255, 255, 255, 0.9); /* Transparent rectangle */
+      background-color: rgba(255, 255, 255, 0.7); /* Transparent rectangle */
       padding: 40px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
       text-align: center;
       width: 100%;
       max-width: 500px;
+      min-height: 300px;
     }
 
     .result-box h1 {
